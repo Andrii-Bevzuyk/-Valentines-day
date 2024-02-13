@@ -1,0 +1,65 @@
+body{
+    background-image: url(/img/background1.jpg);   
+}
+:root {
+    --swiper-theme-color: #ff0000;
+}
+.header{
+    display: flex;
+    justify-content: space-around;    
+    background-color: beige;
+}
+.bant{
+    font-size: 33px;
+}
+.thanks{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    color: black;
+}
+.wrapper{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+}
+.happy{
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+}
+.happy img{
+    max-width: 70%;
+}
+.kiss{
+    display: flex;
+    justify-content: center;
+    height: 45vh;
+}
+.kiss img{
+    max-width: 85%;
+    height: 235px;
+}
+.image-slider{
+    display: flex;
+}
+.image-slider__image img{
+    text-align: center;
+}
+.image-slider__image img{
+    max-width: 100%;
+} 
+.swiper {
+  width: 600px;
+  height: 350px;
+}
+.image-slider .swiper-button-prev::after{
+    color: pink;
+}
+.image-slider .swiper-button-next::after{
+    color: pink;
+}
+.swiper-pagination-bullets::after{
+    color: pink;
+}
+
